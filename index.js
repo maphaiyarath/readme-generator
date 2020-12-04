@@ -70,6 +70,8 @@ function writeToFile(fileName, data) {
 const init = async () => {
     try {
         const answers = await promptUser();
+        answers.badge = chooseBadge(answers.license);
+        console.log(answers);
         const readme = md.generateMarkdown(answers);
         await writeToFile('sample.md', readme);
         console.log('Successfully wrote to sample.md');
@@ -78,9 +80,17 @@ const init = async () => {
     }
 };
 
+function chooseBadge(license) {
+    if (license === 'MIT License') {
+        return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
+    } else if (license === 'Apache License 2.0') {
+        return '[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';
+    } else if (license === 'GNU GPLv3') {
+        return '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)';
+    } else {
+        return;
+    }
+};
+
 // function call to initialize program
 init();
-
-/*
-THEN a badge for that license is added near the top of the README
-*/

@@ -1,10 +1,10 @@
-# hello, world
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# hello
 
 ## Table of Contents
 * [Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Credits](#credits)
 * [License](#license)
 * [Badges](#badges)
 * [Contributing](#contributing)
@@ -12,22 +12,22 @@
 * [Questions](#questions)
 
 ## Description
-my first project
+world
 
 ## Installation
-run npm install
+none
 
 ## Usage
-wip
+no
 
 ## License
 This project is licensed under the MIT License.
 
 ## Contributing
-not really
+nope
 
 ## Tests
-not yet
+not really
 
 ## Questions
 If you have any questions, you can reach me at [maphaiyarath@gmail.com](mailto:maphaiyarath@gmail.com).

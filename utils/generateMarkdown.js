@@ -1,6 +1,7 @@
 // function to generate markdown for README
 const generateMarkdown = (data) =>
-`# ${data.title}
+`${data.badge}
+# ${data.title}
 
 ## Table of Contents
 * [Description](#description)
