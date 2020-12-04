@@ -13,7 +13,7 @@ You can watch the walkthrough video [here](./TODO).
 * [Contributing](#contributing)
 
 ## Description
-Your task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package - what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions. This allows the project creator to devote more time to working on the project.
+This is a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package. The README will include information such as what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions. This allows the project creator to devote more time to working on the project.
 
 ## Installation
 The application will be invoked by using the following command:
