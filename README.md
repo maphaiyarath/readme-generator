@@ -16,13 +16,16 @@ You can watch the walkthrough video [here](./TODO).
 This is a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package. The README will include information such as what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions. This allows the project creator to devote more time to working on the project.
 
 ## Installation
-The application will be invoked by using the following command:
+Use the following command for installation:
 ```bash
-node index.js
+npm install
 ```
 
 ## Usage
-n/a
+To prompt inquirer, the application will be invoked by running:
+```bash
+node index.js
+```
 
 ## Credits
 * [Inquirer.js](https://www.npmjs.com/package/inquirer)
